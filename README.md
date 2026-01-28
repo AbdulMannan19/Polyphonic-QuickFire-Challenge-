@@ -1,8 +1,7 @@
-python -m venv .venv
-.venv\Scripts\activate    
-python.exe -m pip install --upgrade pip
-pip install -r requirements.txt
-python app.py
+conda env create --prefix ./env -f environment.yml
+conda activate ./env
+conda env update --prefix ./env -f environment.yml --prune
+
 
 git status
 git add .
