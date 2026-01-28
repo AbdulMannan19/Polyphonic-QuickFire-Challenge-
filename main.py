@@ -53,7 +53,7 @@ def extract_tube_dimensions(filepath):
     }
 
 
-MODEL_PATH = "model.STEP"
+MODEL_PATH = "PrintinPlaceHingePin.STEP"
 
 
 if __name__ == "__main__":
